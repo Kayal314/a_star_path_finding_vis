@@ -1,5 +1,5 @@
 # a_star_path_finding_vis
-<b><i>Visualization of A* Path Finding Algorithm</i></b> <br><br><br>
+<b><i>Visualization of A* Path Finding Algorithm</i></b> <br><br>
 Refer to the A* Path Finding Algorithm: <a href="https://en.wikipedia.org/wiki/A*_search_algorithm">A* Algorithm</a> <br><br>
 Three common metrics for calculating the heuristic distance between the destination and the current node has been provided:
 <ul>
@@ -9,7 +9,7 @@ Three common metrics for calculating the heuristic distance between the destinat
 </ul>
 <br>
 Refer to the following memeber-function in the class <i>Cell</i>: <br>
-```
+```java
 int get_distance(Cell cell, String metric)
     {
         if(metric.equals("euclidean")||metric.equals("l2"))
