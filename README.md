@@ -8,8 +8,8 @@ Three common metrics for calculating the heuristic distance between the destinat
  <li>Default Metric: <a href="https://en.wikipedia.org/wiki/Euclidean_distance">Euclidean Distance</a></li>
 </ul>
 <br>
-Refer to the following memeber-function in the class <i>Cell</i>: <br>
-```java
+Refer to the following member-function in the class <i>Cell</i>: <br>
+```
 int get_distance(Cell cell, String metric)
 ```
 
