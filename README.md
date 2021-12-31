@@ -9,9 +9,8 @@ Three common metrics for calculating the heuristic distance between the destinat
 </ul>
 <br>
 Refer to the following member-function in the class <i>Cell</i>: <br>
-```
-int get_distance(Cell cell, String metric)
-```
+<b><i> int get_distance(Cell cell, String metric)</i></b>
+
 
 <br> Here's an example output: <br>
 <p align="center"><img src="screenshot.png"></p>
