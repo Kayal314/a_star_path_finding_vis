@@ -1,6 +1,6 @@
 # a_star_path_finding_vis
-<b><i>Visualization of A* Path Finding Algorithm</i></b> <br>
-A* Path Finding Algorithm: <a href="https://en.wikipedia.org/wiki/A*_search_algorithm">A* Algorithm</a> <br><br>
+<b><i>Visualization of A* Path Finding Algorithm</i></b> <br><br><br>
+Refer to the A* Path Finding Algorithm: <a href="https://en.wikipedia.org/wiki/A*_search_algorithm">A* Algorithm</a> <br><br>
 Three common metrics for calculating the heuristic distance between the destination and the current node has been provided:
 <ul>
  <li><a href="https://en.wikipedia.org/wiki/Chebyshev_distance">Chebyshev Distance</a></li>
@@ -9,7 +9,7 @@ Three common metrics for calculating the heuristic distance between the destinat
 </ul>
 <br>
 Refer to the following memeber-function in the class <i>Cell</i>: <br>
-'''
+```
 int get_distance(Cell cell, String metric)
     {
         if(metric.equals("euclidean")||metric.equals("l2"))
@@ -20,7 +20,7 @@ int get_distance(Cell cell, String metric)
             return 5*Math.max(Math.abs(cell.x-this.x),Math.abs(cell.y-this.y));
         return 0;
     }
-'''
+```
 <br> Here's an example output: <br>
 <p align="center"><img src="screenshot.png"></p>
 While drawing the map, the following points are to be noted: <br>
