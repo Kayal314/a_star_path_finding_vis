@@ -11,16 +11,16 @@ Three common metrics for calculating the heuristic distance between the destinat
 Refer to the following memeber-function in the class <i>Cell</i>: <br>
 ```java
 int get_distance(Cell cell, String metric)
-    {
+{
         if(metric.equals("euclidean")||metric.equals("l2"))
             return (int)(5*Math.sqrt(Math.pow(cell.x-this.x,2)+Math.pow(cell.y-this.y,2)));
         if(metric.equals("manhattan")||metric.equals("l1"))
             return 5*(Math.abs(cell.x-this.x)+Math.abs(cell.y-this.y));
         else if(metric.equals("chebyshev")||metric.equals("maximum"))
             return 5*Math.max(Math.abs(cell.x-this.x),Math.abs(cell.y-this.y));
-        return 0;
-    }
+        return 0;}
 ```
+
 <br> Here's an example output: <br>
 <p align="center"><img src="screenshot.png"></p>
 While drawing the map, the following points are to be noted: <br>
